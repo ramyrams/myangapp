@@ -27,6 +27,10 @@ steps:
     ng build --prod
   displayName: 'Angular Instal'
 
+- script:
+  ls
+  displayName: 'Install Angualr' 
+
 - script: |
     ng build --prod
   displayName: 'Build the application'
