@@ -25,7 +25,7 @@ steps:
   displayName: 'Angular Instal'
 
 - script: ls
-  displayName: 'Install Angualr' 
+  displayName: 'List of file received from git' 
 
 - script: ng build --prod
   displayName: 'Build the application'
